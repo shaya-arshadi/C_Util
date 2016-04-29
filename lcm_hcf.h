@@ -12,7 +12,7 @@ class lcm_hcf {
 
 
 public:
-    int lcm() {
+    void lcm() {
         int a, b, x, y, t, gcd, lcm;
 
         printf("Enter two integers\n");
@@ -33,7 +33,7 @@ public:
         printf("Greatest common divisor of %d and %d = %d\n", x, y, gcd);
         printf("Least common multiple of %d and %d = %d\n", x, y, lcm);
 
-        return 0;
+        //return 0;
     }
 };
 
